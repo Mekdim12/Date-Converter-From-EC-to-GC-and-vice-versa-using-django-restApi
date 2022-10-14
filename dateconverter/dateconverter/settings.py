@@ -59,7 +59,7 @@ ROOT_URLCONF = 'dateconverter.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'API/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'API/templates'), os.path.join(BASE_DIR, 'dateconverter/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

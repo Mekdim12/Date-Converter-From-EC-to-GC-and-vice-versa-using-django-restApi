@@ -1,0 +1,219 @@
+
+ *{
+
+    font-family: 'Ubuntu Condensed', sans-serif;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .right,
+    .middle {
+      display: none;
+    }
+    .left {
+      max-height: 65vh;
+    }
+
+    .left > h1 {
+      margin-top: 100px;
+    }
+    .fromc,
+    .toc {
+      width: 50%;
+    }
+  }
+
+  .headerTittle {
+    margin-top: 150px;
+    margin-left: 50px;
+    padding-top: 50px;
+  }
+  .headerDescription {
+    margin-left: 50px;
+    padding: 5px;
+    padding-top: 30px;
+  }
+  .left,
+  .right {
+    height: 85vh;
+    margin-top: 50px;
+  }
+  .converterHolder {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .converBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-16371 {
+padding: 7rem 0;
+font-family: "Poppins", sans-serif; }
+.footer-16371 .footer-site-logo {
+text-align: center;
+font-size: 2rem;
+font-weight: 900; }
+.footer-16371 .footer-site-logo a {
+  color: #4200ff; }
+.footer-16371 .nav-links {
+padding: 0;
+margin: 0; }
+.footer-16371 .nav-links li {
+  display: inline-block; }
+  .footer-16371 .nav-links li a {
+    padding: 10px;
+    color: #000; }
+    .footer-16371 .nav-links li a:hover {
+      color: #4200ff; }
+.footer-16371 .social h3 {
+font-weight: bold;
+font-size: 18px;
+color: #000; }
+.footer-16371 .social ul li {
+display: inline-block; }
+.footer-16371 .social ul li a {
+  display: inline-block;
+  padding: 10px; }
+.footer-16371 .social ul li.in a {
+  color: #df588a; }
+.footer-16371 .social ul li.tw a {
+  color: #15b8ff; }
+.footer-16371 .social ul li.fb a {
+  color: #3742d0; }
+.footer-16371 .social ul li.dr a {
+  color: #fa38c1; }
+.footer-16371 .social ul li.pin a {
+  color: #dd4d5a; }
+.footer-16371 .copyright {
+color: #999999; }
+
+a{
+    text-decoration: none;
+}
+.site{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper{
+    display:flex;
+    height:fit-content;
+    flex-direction: row;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .fab {
+  margin: auto;
+  
+  }
+  .social{
+    color: #FFF;
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  }
+  .social:hover {
+      text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+      transition: all ease 0.5s;
+      -moz-transition: all ease-in 0.5s;
+      -webkit-transition: all ease-in 0.5s;
+      -o-transition: all ease-in 0.5s;
+    
+  }
+  
+  .facebook {
+   color:#4267B2;
+  }
+  
+  .twitter {
+  color:#1DA1F2;
+  
+  }
+  .youtube {
+        color:#c4302b;
+  }
+  .pinterest {
+     color:#c8232c;
+  }
+  .instagram {
+   color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  
+  }
+  .tumblr {
+          color: #34526f;
+  }
+  .whatsapp {
+          color:#25D366;
+  }
+  
+  .bg-ico {
+    display: flex;
+    background-color: #FFF;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+    opacity: 0.99;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+    
+  }
+  .bg-ico:hover{
+       box-shadow: 0 5px 15px -5px rgba(0,0,0,0.8);
+  }
+  
+  #facebook:hover {
+    background-color: #4267B2;
+  }
+  
+  #twitter:hover {
+  background-color: #1DA1F2;
+  
+  }
+  #youtube:hover {
+        background-color: #c4302b;
+  }
+  #pinterest:hover {
+     background-color:#c8232c;
+  }
+  #instagram:hover {
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    
+  
+  }
+  #tumblr:hover {
+      background-color: #34526f;
+  }
+  #whatsapp:hover {
+         background-color:#25D366;
+  }
+  
+  .facebook:hover, 
+  .twitter:hover, 
+  .youtube:hover, 
+  .pinterest:hover,
+  .instagram:hover, 
+  .tumblr:hover,
+  .whatsapp:hover {
+   color:#fff;
+   transform: scale(1.3);
+  
+  }
+  
