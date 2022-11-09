@@ -65,8 +65,11 @@ form.addEventListener('submit', function(e) {
 
 
 
-function urlDefiner(day , month , year, conversionFLag){
-   
+function urlDefiner(day , month , year, conversionFLag){ 
+    
+    //  url = 'https://mekdim12.pythonanywhere.com/API/Date-retiver/'+day+'-'+month+'-'+year+'/'+conversionFLag; 
+    //  console.log(url)
+    //  console.log("this some random error ----------")
     url = 'http://127.0.0.1:8000/API/Date-retiver/'+day+'-'+month+'-'+year+'/'+conversionFLag;
     return url;
 }
